@@ -5,7 +5,7 @@ depends:
   plugin:
   - command
   - gtk
-version: '1.0'
+version: '0.03'
 author: masayoshi_main
 name: ふぁぼりつ
 description: ふぁぼってリツイート
