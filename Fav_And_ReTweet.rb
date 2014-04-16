@@ -6,7 +6,8 @@ Plugin.create(:Fav_And_ReTweet) do
     condition: Plugin::Command[:HasOneMessage],
     visible: true,
     role: :timeline) do |opt|
-    Gtk::Clipboard.copy("Fav And ReTweet")
+    opt.messages.each(&:favorite)
+    opt.messages.select{ |x| not x.from_me? }.each(&:retweet)
   end
   
 end
