@@ -9,4 +9,4 @@ version: '1.0'
 author: masayoshi_main
 name: ふぁぼりつ
 description: ふぁぼってリツイート
-repository: git@github.com:masayoshimashita/mikutter_Metal_Wolf_Chaos.git
+repository: git@github.com:masayoshimashita/mikutter_Fav_And_Retweet.git
